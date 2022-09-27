@@ -71,13 +71,29 @@ input {
     font-family: 'Inconsolata', monospace;
 }
 
+th,
+td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+}
+
 /* button  */
 .btn {
-    display: block;
+    background: #06283D;
+    border: none;
+    color: #256D85;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
     margin: auto;
+    display: block;
 }
 
 /* table  */
 table {
-    margin: auto;
+    margin: 2rem;
 }
