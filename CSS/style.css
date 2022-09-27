@@ -1,35 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata:wght@300&family=Share+Tech+Mono&display=swap');
 
 
 /* body  */
-body{
+body {
     max-width: 60%;
     margin: auto;
     background-color: #182747;
 }
-.body{  
-    margin-top: 0;
+
+.body {
     text-align: center;
     background-color: #06283D;
     color: #256D85;
 }
 
 /* heading  */
-.heading{
+.heading {
     font-family: 'Abril Fatface', cursive;
     font-size: 3.5rem;
-    margin-top: 0;
+    margin-top: auto;
     padding-top: 1rem;
     margin-bottom: 1rem;
 }
 
+/* other */
+.description {
+    font-family: 'Inconsolata', monospace;
+    font-size: larger;
+    margin: 1rem;
+}
+
+.label {
+    font-family: 'Inconsolata', monospace;
+    display: block;
+    font-size: large;
+    font-weight: 600;
+}
+
+input {
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border-width: 0;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+    background-color: #182747;
+    color: #256D85;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.errorMessage {
+    display: block;
+    font-size: larger;
+    margin: 1rem 0 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+.table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.caption {
+    margin: 1rem auto;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+}
+
 /* button  */
-.btn{
+.btn {
     display: block;
     margin: auto;
 }
 
 /* table  */
-table{
+table {
     margin: auto;
 }
